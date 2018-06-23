@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
     elsif value < name_hash[min]
       min = key
   end
-  return nil
+  min
 end
